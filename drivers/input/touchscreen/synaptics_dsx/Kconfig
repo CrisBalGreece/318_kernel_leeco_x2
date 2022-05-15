@@ -51,9 +51,8 @@ config TOUCHSCREEN_SYNAPTICS_DSX_RMI_DEV
 
 	  o compile this driver as a module, choose M here: the
 	  module will be called synaptics_dsx_rmi_dev.
-endchoice
 
-onfig TOUCHSCREEN_SYNAPTICS_DSX_FW_UPDATE
+config TOUCHSCREEN_SYNAPTICS_DSX_FW_UPDATE
 	tristate "Synaptics DSX firmware update module"
 	depends on TOUCHSCREEN_SYNAPTICS_DSX_CORE
 	help
