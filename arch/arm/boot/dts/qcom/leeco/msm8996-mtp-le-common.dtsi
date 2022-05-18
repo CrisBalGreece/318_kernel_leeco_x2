@@ -667,6 +667,10 @@
 };
 
 &soc {
+	qcom,captouch {
+		compatible = "qcom,captouch";
+	};
+	
 	i2c@75ba000 {
 		synaptics@20 {
 			compatible = "synaptics,dsx";
